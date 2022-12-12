@@ -204,34 +204,6 @@
   "sources": [
     {
       "type": "file",
-      "path": "views/error.ejs",
-      "language": "JavaScript",
-      "line": 1,
-      "offset": 15,
-      "length": 27,
-      "code": {
-        "startLine": 1,
-        "length": 27,
-        "offset": 14,
-        "surroundingCode": "<h1><%=message%></h1>\n<h2><%=error.status%></h2>\n\n<pre><%=error.stack%></pre>"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "BadExpressionStatementJS"
-  },
-  "hash": "104869746d8287db3068bffeb8b1d18ed2abffdc85f5578e389b7f39a2bb839e"
-},{
-  "tool": "Code Inspection",
-  "category": "Validity issues",
-  "type": "Expression statement which is not assignment or call",
-  "severity": "Moderate",
-  "comment": "Expression statement is not assignment or call",
-  "detailsInfo": "Reports an expression statement that is neither an assignment nor a call. Such statements usually indicate an error.",
-  "sources": [
-    {
-      "type": "file",
       "path": "views/search.ejs",
       "language": "JavaScript",
       "line": 23,
@@ -334,6 +306,34 @@
     "inspectionName": "BadExpressionStatementJS"
   },
   "hash": "b3f081f99255aeee9ad53e64c72fe86c29f6a33d64f21415bf96338a3113ee07"
+},{
+  "tool": "Code Inspection",
+  "category": "Validity issues",
+  "type": "Expression statement which is not assignment or call",
+  "severity": "Moderate",
+  "comment": "Expression statement is not assignment or call",
+  "detailsInfo": "Reports an expression statement that is neither an assignment nor a call. Such statements usually indicate an error.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "views/error.ejs",
+      "language": "JavaScript",
+      "line": 1,
+      "offset": 15,
+      "length": 27,
+      "code": {
+        "startLine": 1,
+        "length": 27,
+        "offset": 14,
+        "surroundingCode": "<h1><%=message%></h1>\n<h2><%=error.status%></h2>\n\n<pre><%=error.stack%></pre>"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "BadExpressionStatementJS"
+  },
+  "hash": "104869746d8287db3068bffeb8b1d18ed2abffdc85f5578e389b7f39a2bb839e"
 },{
   "tool": "Code Inspection",
   "category": "Validity issues",
@@ -1548,90 +1548,6 @@
   "sources": [
     {
       "type": "file",
-      "path": "views/error.ejs",
-      "language": "JavaScript",
-      "line": 1,
-      "offset": 8,
-      "length": 7,
-      "code": {
-        "startLine": 1,
-        "length": 7,
-        "offset": 7,
-        "surroundingCode": "<h1><%=message%></h1>\n<h2><%=error.status%></h2>\n"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "JSUnresolvedVariable"
-  },
-  "hash": "7fc8cd521244355edcbe42da0451507e57011563f2b64e8104af00241edbf9dd"
-},{
-  "tool": "Code Inspection",
-  "category": "General",
-  "type": "Unresolved JavaScript variable",
-  "severity": "Moderate",
-  "comment": "Element is not exported",
-  "detailsInfo": "Reports an unresolved referenced variable or field.\n\nTypeScript code is ignored.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "views/error.ejs",
-      "language": "JavaScript",
-      "line": 2,
-      "offset": 8,
-      "length": 5,
-      "code": {
-        "startLine": 1,
-        "length": 5,
-        "offset": 29,
-        "surroundingCode": "<h1><%=message%></h1>\n<h2><%=error.status%></h2>\n\n<pre><%=error.stack%></pre>"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "JSUnresolvedVariable"
-  },
-  "hash": "9149097ac89956b197cfeb6df031d36865ef9f4ccdbbc4822f41ffea876fe2e4"
-},{
-  "tool": "Code Inspection",
-  "category": "General",
-  "type": "Unresolved JavaScript variable",
-  "severity": "Moderate",
-  "comment": "Element is not exported",
-  "detailsInfo": "Reports an unresolved referenced variable or field.\n\nTypeScript code is ignored.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "views/error.ejs",
-      "language": "JavaScript",
-      "line": 4,
-      "offset": 9,
-      "length": 5,
-      "code": {
-        "startLine": 2,
-        "length": 5,
-        "offset": 36,
-        "surroundingCode": "<h2><%=error.status%></h2>\n\n<pre><%=error.stack%></pre>"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "JSUnresolvedVariable"
-  },
-  "hash": "4d4da692507676cf2842e4149838bc1f04c2ceec318ba411f9bb6c3cc1200938"
-},{
-  "tool": "Code Inspection",
-  "category": "General",
-  "type": "Unresolved JavaScript variable",
-  "severity": "Moderate",
-  "comment": "Element is not exported",
-  "detailsInfo": "Reports an unresolved referenced variable or field.\n\nTypeScript code is ignored.",
-  "sources": [
-    {
-      "type": "file",
       "path": "views/search.ejs",
       "language": "JavaScript",
       "line": 3,
@@ -1790,6 +1706,90 @@
     "inspectionName": "JSUnresolvedVariable"
   },
   "hash": "100ab212c363d754b64b605f6ed61c205b4bf48ee2809fb741525356bc32fbce"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Unresolved JavaScript variable",
+  "severity": "Moderate",
+  "comment": "Element is not exported",
+  "detailsInfo": "Reports an unresolved referenced variable or field.\n\nTypeScript code is ignored.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "views/error.ejs",
+      "language": "JavaScript",
+      "line": 1,
+      "offset": 8,
+      "length": 7,
+      "code": {
+        "startLine": 1,
+        "length": 7,
+        "offset": 7,
+        "surroundingCode": "<h1><%=message%></h1>\n<h2><%=error.status%></h2>\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "JSUnresolvedVariable"
+  },
+  "hash": "7fc8cd521244355edcbe42da0451507e57011563f2b64e8104af00241edbf9dd"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Unresolved JavaScript variable",
+  "severity": "Moderate",
+  "comment": "Element is not exported",
+  "detailsInfo": "Reports an unresolved referenced variable or field.\n\nTypeScript code is ignored.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "views/error.ejs",
+      "language": "JavaScript",
+      "line": 2,
+      "offset": 8,
+      "length": 5,
+      "code": {
+        "startLine": 1,
+        "length": 5,
+        "offset": 29,
+        "surroundingCode": "<h1><%=message%></h1>\n<h2><%=error.status%></h2>\n\n<pre><%=error.stack%></pre>"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "JSUnresolvedVariable"
+  },
+  "hash": "9149097ac89956b197cfeb6df031d36865ef9f4ccdbbc4822f41ffea876fe2e4"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Unresolved JavaScript variable",
+  "severity": "Moderate",
+  "comment": "Element is not exported",
+  "detailsInfo": "Reports an unresolved referenced variable or field.\n\nTypeScript code is ignored.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "views/error.ejs",
+      "language": "JavaScript",
+      "line": 4,
+      "offset": 9,
+      "length": 5,
+      "code": {
+        "startLine": 2,
+        "length": 5,
+        "offset": 36,
+        "surroundingCode": "<h2><%=error.status%></h2>\n\n<pre><%=error.stack%></pre>"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "JSUnresolvedVariable"
+  },
+  "hash": "4d4da692507676cf2842e4149838bc1f04c2ceec318ba411f9bb6c3cc1200938"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -1968,62 +1968,6 @@
   "sources": [
     {
       "type": "file",
-      "path": "views/products.ejs",
-      "language": "JavaScript",
-      "line": 11,
-      "offset": 26,
-      "length": 8,
-      "code": {
-        "startLine": 9,
-        "length": 8,
-        "offset": 42,
-        "surroundingCode": "\n<div id=\"grid\">\n    <% for( var i=0; i < products.length; i++)  {\n        var product = products[i];;\n    %>"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "JSUnresolvedVariable"
-  },
-  "hash": "f55ddafae2434cdc3e48da499b596b5e8e4f8bddd6049cce01041c6e8906603d"
-},{
-  "tool": "Code Inspection",
-  "category": "General",
-  "type": "Unresolved JavaScript variable",
-  "severity": "Moderate",
-  "comment": "Element is not exported",
-  "detailsInfo": "Reports an unresolved referenced variable or field.\n\nTypeScript code is ignored.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "views/products.ejs",
-      "language": "JavaScript",
-      "line": 12,
-      "offset": 23,
-      "length": 8,
-      "code": {
-        "startLine": 10,
-        "length": 8,
-        "offset": 88,
-        "surroundingCode": "<div id=\"grid\">\n    <% for( var i=0; i < products.length; i++)  {\n        var product = products[i];;\n    %>\n        <div class=\"item\">"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "JSUnresolvedVariable"
-  },
-  "hash": "54e7e5551feda3e6be16be092eb5739f74ce63c18a189bd03c7be05bcfaf8121"
-},{
-  "tool": "Code Inspection",
-  "category": "General",
-  "type": "Unresolved JavaScript variable",
-  "severity": "Moderate",
-  "comment": "Element is not exported",
-  "detailsInfo": "Reports an unresolved referenced variable or field.\n\nTypeScript code is ignored.",
-  "sources": [
-    {
-      "type": "file",
       "path": "views/login.ejs",
       "language": "JavaScript",
       "line": 17,
@@ -2098,6 +2042,62 @@
     "inspectionName": "JSUnresolvedVariable"
   },
   "hash": "fb0bbe54ffb664ce6b13091c20fa31d741d9f3049df333e5cc34afab6d0309b0"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Unresolved JavaScript variable",
+  "severity": "Moderate",
+  "comment": "Element is not exported",
+  "detailsInfo": "Reports an unresolved referenced variable or field.\n\nTypeScript code is ignored.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "views/products.ejs",
+      "language": "JavaScript",
+      "line": 11,
+      "offset": 26,
+      "length": 8,
+      "code": {
+        "startLine": 9,
+        "length": 8,
+        "offset": 42,
+        "surroundingCode": "\n<div id=\"grid\">\n    <% for( var i=0; i < products.length; i++)  {\n        var product = products[i];;\n    %>"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "JSUnresolvedVariable"
+  },
+  "hash": "f55ddafae2434cdc3e48da499b596b5e8e4f8bddd6049cce01041c6e8906603d"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Unresolved JavaScript variable",
+  "severity": "Moderate",
+  "comment": "Element is not exported",
+  "detailsInfo": "Reports an unresolved referenced variable or field.\n\nTypeScript code is ignored.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "views/products.ejs",
+      "language": "JavaScript",
+      "line": 12,
+      "offset": 23,
+      "length": 8,
+      "code": {
+        "startLine": 10,
+        "length": 8,
+        "offset": 88,
+        "surroundingCode": "<div id=\"grid\">\n    <% for( var i=0; i < products.length; i++)  {\n        var product = products[i];;\n    %>\n        <div class=\"item\">"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "JSUnresolvedVariable"
+  },
+  "hash": "54e7e5551feda3e6be16be092eb5739f74ce63c18a189bd03c7be05bcfaf8121"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -2248,34 +2248,6 @@
   "sources": [
     {
       "type": "file",
-      "path": "model/init_db.js",
-      "language": "JavaScript",
-      "line": 65,
-      "offset": 1,
-      "length": 6,
-      "code": {
-        "startLine": 63,
-        "length": 6,
-        "offset": 3,
-        "surroundingCode": "}\n\nmodule.exports = init_db;"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "JSUnresolvedVariable"
-  },
-  "hash": "d22810cd8fc33a0a47a05d5450fd1fc2d878717de5ba612a4e7cb6b14943c09a"
-},{
-  "tool": "Code Inspection",
-  "category": "General",
-  "type": "Unresolved JavaScript variable",
-  "severity": "Moderate",
-  "comment": "Unresolved variable or type module",
-  "detailsInfo": "Reports an unresolved referenced variable or field.\n\nTypeScript code is ignored.",
-  "sources": [
-    {
-      "type": "file",
       "path": "model/products.js",
       "language": "JavaScript",
       "line": 60,
@@ -2294,6 +2266,34 @@
     "inspectionName": "JSUnresolvedVariable"
   },
   "hash": "8b0da01103c9983b202c372a13644b4cc76d9666d9fc100886e627e40bf24ce1"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Unresolved JavaScript variable",
+  "severity": "Moderate",
+  "comment": "Unresolved variable or type module",
+  "detailsInfo": "Reports an unresolved referenced variable or field.\n\nTypeScript code is ignored.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "model/init_db.js",
+      "language": "JavaScript",
+      "line": 65,
+      "offset": 1,
+      "length": 6,
+      "code": {
+        "startLine": 63,
+        "length": 6,
+        "offset": 3,
+        "surroundingCode": "}\n\nmodule.exports = init_db;"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "JSUnresolvedVariable"
+  },
+  "hash": "d22810cd8fc33a0a47a05d5450fd1fc2d878717de5ba612a4e7cb6b14943c09a"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -6532,34 +6532,6 @@
   "sources": [
     {
       "type": "file",
-      "path": "views/products.ejs",
-      "language": "JavaScript",
-      "line": 1,
-      "offset": 4,
-      "length": 6,
-      "code": {
-        "startLine": 1,
-        "length": 6,
-        "offset": 3,
-        "surroundingCode": "<% layout('content') %>\n\n<div class=\"jumbotron\">"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "JSUnresolvedFunction"
-  },
-  "hash": "85c89b2fdb75624ec21493ed11b5f17654845f19abe936dba9c1360e404dc8fe"
-},{
-  "tool": "Code Inspection",
-  "category": "General",
-  "type": "Unresolved JavaScript function",
-  "severity": "Moderate",
-  "comment": "Unresolved function or method layout()",
-  "detailsInfo": "Reports an unresolved function in a call.\n\nTypeScript code is ignored.",
-  "sources": [
-    {
-      "type": "file",
       "path": "views/login.ejs",
       "language": "JavaScript",
       "line": 1,
@@ -6578,6 +6550,34 @@
     "inspectionName": "JSUnresolvedFunction"
   },
   "hash": "fd70edb934e5bc55ead2210a08a7b36ed045f999037d1bcbf5eb91000c9b7596"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Unresolved JavaScript function",
+  "severity": "Moderate",
+  "comment": "Unresolved function or method layout()",
+  "detailsInfo": "Reports an unresolved function in a call.\n\nTypeScript code is ignored.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "views/products.ejs",
+      "language": "JavaScript",
+      "line": 1,
+      "offset": 4,
+      "length": 6,
+      "code": {
+        "startLine": 1,
+        "length": 6,
+        "offset": 3,
+        "surroundingCode": "<% layout('content') %>\n\n<div class=\"jumbotron\">"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "JSUnresolvedFunction"
+  },
+  "hash": "85c89b2fdb75624ec21493ed11b5f17654845f19abe936dba9c1360e404dc8fe"
 },{
   "tool": "Code Inspection",
   "category": "General",
@@ -7204,90 +7204,6 @@
   "sources": [
     {
       "type": "file",
-      "path": "model/init_db.js",
-      "language": "JavaScript",
-      "line": 1,
-      "offset": 14,
-      "length": 7,
-      "code": {
-        "startLine": 1,
-        "length": 7,
-        "offset": 13,
-        "surroundingCode": "var config = require(\"../config\");\nvar dummy = require(\"../dummy\");\nvar pgp = require('pg-promise')();"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "JSUnresolvedFunction"
-  },
-  "hash": "7616fe34a089faaafe27dd911d6b2312287a7234c47fd1a86e9ceacb3a87cab5"
-},{
-  "tool": "Code Inspection",
-  "category": "General",
-  "type": "Unresolved JavaScript function",
-  "severity": "Moderate",
-  "comment": "Unresolved function or method require()",
-  "detailsInfo": "Reports an unresolved function in a call.\n\nTypeScript code is ignored.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "model/init_db.js",
-      "language": "JavaScript",
-      "line": 2,
-      "offset": 13,
-      "length": 7,
-      "code": {
-        "startLine": 1,
-        "length": 7,
-        "offset": 47,
-        "surroundingCode": "var config = require(\"../config\");\nvar dummy = require(\"../dummy\");\nvar pgp = require('pg-promise')();\n"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "JSUnresolvedFunction"
-  },
-  "hash": "e2a642530db8e3394216a45d5e746893db9fde01c17e8195aa01d29d8289d5b6"
-},{
-  "tool": "Code Inspection",
-  "category": "General",
-  "type": "Unresolved JavaScript function",
-  "severity": "Moderate",
-  "comment": "Unresolved function or method require()",
-  "detailsInfo": "Reports an unresolved function in a call.\n\nTypeScript code is ignored.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "model/init_db.js",
-      "language": "JavaScript",
-      "line": 3,
-      "offset": 11,
-      "length": 7,
-      "code": {
-        "startLine": 1,
-        "length": 7,
-        "offset": 78,
-        "surroundingCode": "var config = require(\"../config\");\nvar dummy = require(\"../dummy\");\nvar pgp = require('pg-promise')();\n\n/*"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "JSUnresolvedFunction"
-  },
-  "hash": "4ff5acf34730959929260e27409c9eaef6f1cd0625272be278e452e9ed27886f"
-},{
-  "tool": "Code Inspection",
-  "category": "General",
-  "type": "Unresolved JavaScript function",
-  "severity": "Moderate",
-  "comment": "Unresolved function or method require()",
-  "detailsInfo": "Reports an unresolved function in a call.\n\nTypeScript code is ignored.",
-  "sources": [
-    {
-      "type": "file",
       "path": "model/products.js",
       "language": "JavaScript",
       "line": 1,
@@ -7418,6 +7334,90 @@
     "inspectionName": "JSUnresolvedFunction"
   },
   "hash": "79898a80133d4321afaca70ad466b255a4891a0af33d01d3743bc0c7d6b34aff"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Unresolved JavaScript function",
+  "severity": "Moderate",
+  "comment": "Unresolved function or method require()",
+  "detailsInfo": "Reports an unresolved function in a call.\n\nTypeScript code is ignored.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "model/init_db.js",
+      "language": "JavaScript",
+      "line": 1,
+      "offset": 14,
+      "length": 7,
+      "code": {
+        "startLine": 1,
+        "length": 7,
+        "offset": 13,
+        "surroundingCode": "var config = require(\"../config\");\nvar dummy = require(\"../dummy\");\nvar pgp = require('pg-promise')();"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "JSUnresolvedFunction"
+  },
+  "hash": "7616fe34a089faaafe27dd911d6b2312287a7234c47fd1a86e9ceacb3a87cab5"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Unresolved JavaScript function",
+  "severity": "Moderate",
+  "comment": "Unresolved function or method require()",
+  "detailsInfo": "Reports an unresolved function in a call.\n\nTypeScript code is ignored.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "model/init_db.js",
+      "language": "JavaScript",
+      "line": 2,
+      "offset": 13,
+      "length": 7,
+      "code": {
+        "startLine": 1,
+        "length": 7,
+        "offset": 47,
+        "surroundingCode": "var config = require(\"../config\");\nvar dummy = require(\"../dummy\");\nvar pgp = require('pg-promise')();\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "JSUnresolvedFunction"
+  },
+  "hash": "e2a642530db8e3394216a45d5e746893db9fde01c17e8195aa01d29d8289d5b6"
+},{
+  "tool": "Code Inspection",
+  "category": "General",
+  "type": "Unresolved JavaScript function",
+  "severity": "Moderate",
+  "comment": "Unresolved function or method require()",
+  "detailsInfo": "Reports an unresolved function in a call.\n\nTypeScript code is ignored.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "model/init_db.js",
+      "language": "JavaScript",
+      "line": 3,
+      "offset": 11,
+      "length": 7,
+      "code": {
+        "startLine": 1,
+        "length": 7,
+        "offset": 78,
+        "surroundingCode": "var config = require(\"../config\");\nvar dummy = require(\"../dummy\");\nvar pgp = require('pg-promise')();\n\n/*"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "JSUnresolvedFunction"
+  },
+  "hash": "4ff5acf34730959929260e27409c9eaef6f1cd0625272be278e452e9ed27886f"
 },{
   "tool": "Code Inspection",
   "category": "General",

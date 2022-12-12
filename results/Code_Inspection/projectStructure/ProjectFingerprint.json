@@ -1,13 +1,14 @@
 {
   "languages": [
     "JavaScript",
+    "XML",
+    ".gitignore (GitIgnore)",
     "EJS",
     "CSS",
     "SVG",
     "YAML",
     "Plain text",
     "Markdown",
-    ".gitignore (GitIgnore)",
     "JSON"
   ]
 }

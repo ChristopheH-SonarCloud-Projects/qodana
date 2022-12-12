@@ -7,12 +7,12 @@
     "vcs": {
       "sarifIdea": {
         "repositoryUri": "https://github.com/ChristopheH-SonarCloud-Projects/qodana",
-        "revisionId": "632628c6682c228ce10d3e9b78c3098dbf01780c",
+        "revisionId": "ed81b3a2e1a709585a0dc2c5177b23418f79f9be",
         "branch": "master"
       }
     },
     "deviceId": "200820300000000-0886-ec4f-9519-8d9540e0e6b5",
-    "jobUrl": "https://github.com/ChristopheH-SonarCloud-Projects/qodana/actions/runs/3618439653",
+    "jobUrl": "https://github.com/ChristopheH-SonarCloud-Projects/qodana/actions/runs/3675010596",
     "repoUrl": "https://github.com/ChristopheH-SonarCloud-Projects/qodana"
   }
 }
